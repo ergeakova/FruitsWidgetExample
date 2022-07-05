@@ -8,9 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    let fruitsArray = [apple, bananas, lemon, strawberry]
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            ForEach(fruitsArray){ fruit in
+                FruitView(fruit: fruit)
+            }
+        }
     }
 }
 
