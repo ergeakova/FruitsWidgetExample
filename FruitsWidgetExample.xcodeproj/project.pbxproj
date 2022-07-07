@@ -14,7 +14,42 @@
 		C066A23F2874F0BB00344CB3 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C066A23E2874F0BB00344CB3 /* Fruit.swift */; };
 		C066A2412874F3B900344CB3 /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C066A2402874F3B900344CB3 /* CircularImageView.swift */; };
 		C066A2432874F58900344CB3 /* FruitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C066A2422874F58900344CB3 /* FruitView.swift */; };
+		C0C6566E287754E600D7B6B3 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C6566D287754E600D7B6B3 /* WidgetKit.framework */; };
+		C0C65670287754E600D7B6B3 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C6566F287754E600D7B6B3 /* SwiftUI.framework */; };
+		C0C65673287754E600D7B6B3 /* FruitsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C65672287754E600D7B6B3 /* FruitsWidget.swift */; };
+		C0C65676287754F000D7B6B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C65675287754F000D7B6B3 /* Assets.xcassets */; };
+		C0C65678287754F000D7B6B3 /* FruitsWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = C0C65674287754E700D7B6B3 /* FruitsWidget.intentdefinition */; };
+		C0C65679287754F000D7B6B3 /* FruitsWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = C0C65674287754E700D7B6B3 /* FruitsWidget.intentdefinition */; };
+		C0C6567C287754F000D7B6B3 /* FruitsWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C0C6566B287754E600D7B6B3 /* FruitsWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C0C656812877556200D7B6B3 /* FruitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C066A2422874F58900344CB3 /* FruitView.swift */; };
+		C0C656822877556E00D7B6B3 /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C066A2402874F3B900344CB3 /* CircularImageView.swift */; };
+		C0C656832877557100D7B6B3 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C066A23E2874F0BB00344CB3 /* Fruit.swift */; };
+		C0C656842877574900D7B6B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C066A2342874EFB900344CB3 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0C6567A287754F000D7B6B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C066A2252874EFB200344CB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0C6566A287754E600D7B6B3;
+			remoteInfo = FruitsWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C0C6567D287754F000D7B6B3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C0C6567C287754F000D7B6B3 /* FruitsWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C066A22D2874EFB200344CB3 /* FruitsWidgetExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitsWidgetExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,6 +60,13 @@
 		C066A23E2874F0BB00344CB3 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
 		C066A2402874F3B900344CB3 /* CircularImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImageView.swift; sourceTree = "<group>"; };
 		C066A2422874F58900344CB3 /* FruitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitView.swift; sourceTree = "<group>"; };
+		C0C6566B287754E600D7B6B3 /* FruitsWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FruitsWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C6566D287754E600D7B6B3 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		C0C6566F287754E600D7B6B3 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		C0C65672287754E600D7B6B3 /* FruitsWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsWidget.swift; sourceTree = "<group>"; };
+		C0C65674287754E700D7B6B3 /* FruitsWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = FruitsWidget.intentdefinition; sourceTree = "<group>"; };
+		C0C65675287754F000D7B6B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0C65677287754F000D7B6B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +77,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C0C65668287754E600D7B6B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C65670287754E600D7B6B3 /* SwiftUI.framework in Frameworks */,
+				C0C6566E287754E600D7B6B3 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -42,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				C066A22F2874EFB200344CB3 /* FruitsWidgetExample */,
+				C0C65671287754E600D7B6B3 /* FruitsWidget */,
+				C0C6566C287754E600D7B6B3 /* Frameworks */,
 				C066A22E2874EFB200344CB3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				C066A22D2874EFB200344CB3 /* FruitsWidgetExample.app */,
+				C0C6566B287754E600D7B6B3 /* FruitsWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +130,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		C0C6566C287754E600D7B6B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0C6566D287754E600D7B6B3 /* WidgetKit.framework */,
+				C0C6566F287754E600D7B6B3 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0C65671287754E600D7B6B3 /* FruitsWidget */ = {
+			isa = PBXGroup;
+			children = (
+				C0C65672287754E600D7B6B3 /* FruitsWidget.swift */,
+				C0C65674287754E700D7B6B3 /* FruitsWidget.intentdefinition */,
+				C0C65675287754F000D7B6B3 /* Assets.xcassets */,
+				C0C65677287754F000D7B6B3 /* Info.plist */,
+			);
+			path = FruitsWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,15 +160,34 @@
 				C066A2292874EFB200344CB3 /* Sources */,
 				C066A22A2874EFB200344CB3 /* Frameworks */,
 				C066A22B2874EFB200344CB3 /* Resources */,
+				C0C6567D287754F000D7B6B3 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C0C6567B287754F000D7B6B3 /* PBXTargetDependency */,
 			);
 			name = FruitsWidgetExample;
 			productName = FruitsWidgetExample;
 			productReference = C066A22D2874EFB200344CB3 /* FruitsWidgetExample.app */;
 			productType = "com.apple.product-type.application";
+		};
+		C0C6566A287754E600D7B6B3 /* FruitsWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0C65680287754F000D7B6B3 /* Build configuration list for PBXNativeTarget "FruitsWidgetExtension" */;
+			buildPhases = (
+				C0C65667287754E600D7B6B3 /* Sources */,
+				C0C65668287754E600D7B6B3 /* Frameworks */,
+				C0C65669287754E600D7B6B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FruitsWidgetExtension;
+			productName = FruitsWidgetExtension;
+			productReference = C0C6566B287754E600D7B6B3 /* FruitsWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -107,6 +200,9 @@
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					C066A22C2874EFB200344CB3 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					C0C6566A287754E600D7B6B3 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
@@ -125,6 +221,7 @@
 			projectRoot = "";
 			targets = (
 				C066A22C2874EFB200344CB3 /* FruitsWidgetExample */,
+				C0C6566A287754E600D7B6B3 /* FruitsWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +236,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C0C65669287754E600D7B6B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C656842877574900D7B6B3 /* Assets.xcassets in Resources */,
+				C0C65676287754F000D7B6B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -149,12 +255,33 @@
 				C066A2332874EFB200344CB3 /* ContentView.swift in Sources */,
 				C066A2412874F3B900344CB3 /* CircularImageView.swift in Sources */,
 				C066A2312874EFB200344CB3 /* FruitsWidgetExampleApp.swift in Sources */,
+				C0C65679287754F000D7B6B3 /* FruitsWidget.intentdefinition in Sources */,
 				C066A2432874F58900344CB3 /* FruitView.swift in Sources */,
 				C066A23F2874F0BB00344CB3 /* Fruit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C0C65667287754E600D7B6B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C656832877557100D7B6B3 /* Fruit.swift in Sources */,
+				C0C656812877556200D7B6B3 /* FruitView.swift in Sources */,
+				C0C656822877556E00D7B6B3 /* CircularImageView.swift in Sources */,
+				C0C65673287754E600D7B6B3 /* FruitsWidget.swift in Sources */,
+				C0C65678287754F000D7B6B3 /* FruitsWidget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0C6567B287754F000D7B6B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0C6566A287754E600D7B6B3 /* FruitsWidgetExtension */;
+			targetProxy = C0C6567A287754F000D7B6B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		C066A2392874EFB900344CB3 /* Debug */ = {
@@ -274,6 +401,7 @@
 		C066A23C2874EFB900344CB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +431,7 @@
 		C066A23D2874EFB900344CB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -329,6 +458,60 @@
 			};
 			name = Release;
 		};
+		C0C6567E287754F000D7B6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2UQC3V4S3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FruitsWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FruitsWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ergeakova.FruitsWidgetExample.FruitsWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0C6567F287754F000D7B6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2UQC3V4S3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FruitsWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FruitsWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ergeakova.FruitsWidgetExample.FruitsWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -346,6 +529,15 @@
 			buildConfigurations = (
 				C066A23C2874EFB900344CB3 /* Debug */,
 				C066A23D2874EFB900344CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0C65680287754F000D7B6B3 /* Build configuration list for PBXNativeTarget "FruitsWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C6567E287754F000D7B6B3 /* Debug */,
+				C0C6567F287754F000D7B6B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
